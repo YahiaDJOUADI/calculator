@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#309FFF] flex items-center justify-center">
+    <h1 class="mr-10 font-bold text-xl cursor-pointer italic">WELCOME TO THE BEST CALCULATOR IN HISTORY</h1>
+    <div class="bg-white max-w-lg w-full rounded-2xl px-7 py-9">
+      <input
+        type="text"
+        class="display h-20 w-full outline-none border-none text-right mb-2 text-3xl text-white pointer-events-none bg-slate-700 rounded-lg"
+      />
+      <div class="buttons">
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff]"
+          data-value="AC"
+        >
+          AC
+        </button>
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff]"
+          data-value="DEL"
+        >
+          DEL
+        </button>
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="%"
+        >
+          %
+        </button>
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="/"
+        >
+          /
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="7"
+        >
+          7
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="8"
+        >
+          8
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="9"
+        >
+          9
+        </button>
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="*"
+        >
+          *
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="4"
+        >
+          4
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="5"
+        >
+          5
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="6"
+        >
+          6
+        </button>
+        <button
+          class="operator p-4 rounded-lg hover:bg-slate-500 hover: active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="-"
+        >
+          -
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="1"
+        >
+          1
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="2"
+        >
+          2
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="3"
+        >
+          3
+        </button>
+        <button
+          class="operator rounded-lg hover:bg-slate-500 p-4 active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="+"
+        >
+          +
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="0"
+        >
+          0
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="00"
+        >
+          00
+        </button>
+        <button
+          class="p-4 rounded-lg border-none text-lg cursor-pointer bg-slate-200 hover:bg-slate-500 hover:text-xl active:scale-100"
+          data-value="."
+        >
+          .
+        </button>
+        <button
+          class="operator rounded-lg hover:bg-slate-500 p-4 active:scale-100 bg-slate-200 text-[#2f9fff] text-2xl"
+          data-value="="
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
